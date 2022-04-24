@@ -2,6 +2,9 @@
 ## saves the matrix and cache its inverse.
 ## This function create a special "matrix" object that can cache its reverse side.
 
+## This is not someone else's work, I did everything myself, looked at examples and 
+## studied this programming language.
+
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
